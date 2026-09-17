@@ -33,9 +33,22 @@ context → bottleneck → learn → build → observe → accumulate
 
 ## Selected work
 
-<a href="https://github.com/dohyeon-kr/free-rider">
-  <img src="./assets/free-rider.svg" width="100%" alt="Free Rider — local-first open-source API client" />
-</a>
+<table>
+  <tr>
+    <td width="74%" valign="middle">
+      <a href="https://github.com/dohyeon-kr/free-rider">
+        <img src="./assets/free-rider.svg" width="100%" alt="Free Rider — local-first open-source API client" />
+      </a>
+    </td>
+    <td width="26%" align="center" valign="middle">
+      <a href="https://dohyeon-kr.github.io/free-rider/">
+        <img src="https://dohyeon-kr.github.io/free-rider/free-rider-app-icon.png" width="180" alt="Free Rider app icon" />
+      </a>
+      <br />
+      <sub><strong>ALL FREE / AGPL-3.0</strong></sub>
+    </td>
+  </tr>
+</table>
 
 ### Free Rider
 
@@ -48,9 +61,24 @@ OpenAPI 명세를 가져와 변경을 검토·선택 반영하고, 환경/변수
 
 <br />
 
-<a href="https://poli.it.kr">
-  <img src="./assets/poli.svg" width="100%" alt="Poli — personalized National Assembly activity feed" />
-</a>
+<table>
+  <tr>
+    <td width="74%" valign="middle">
+      <a href="https://poli.it.kr">
+        <img src="./assets/poli.svg" width="100%" alt="Poli — personalized National Assembly activity feed" />
+      </a>
+    </td>
+    <td width="26%" align="center" valign="middle">
+      <a href="https://poli.it.kr">
+        <img src="https://poli.it.kr/brand/poli-wordmark.svg" width="150" alt="Poli logo" />
+      </a>
+      <br />
+      <a href="https://poli.it.kr">
+        <img src="https://poli.it.kr/brand/poli/avatar-v1/wave.png" width="190" alt="Poli character" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### Poli
 
