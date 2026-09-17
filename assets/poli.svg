@@ -1,0 +1,61 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090B10"/>
+      <stop offset="1" stop-color="#0E1020"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 160) rotate(180) scale(360 270)">
+      <stop stop-color="#7C8CFF" stop-opacity="0.34"/>
+      <stop offset="0.48" stop-color="#2DD4BF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#7C8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orb" x1="870" y1="80" x2="1090" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9CA8FF"/>
+      <stop offset="0.5" stop-color="#7C8CFF"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#FFFFFF" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="358" rx="26" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity="0.11" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="358" rx="26" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="26" fill="url(#glow)"/>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="70" y="68" fill="#9CA8FF" font-size="14" font-weight="800" letter-spacing="3.5">SELECTED WORK 02 / CIVIC PRODUCT</text>
+    <text x="68" y="145" fill="#FFFFFF" font-size="64" font-weight="850" letter-spacing="-3">POLI</text>
+    <text x="72" y="187" fill="#D2D6DE" font-size="24" font-weight="600">Your National Assembly news, filtered by what matters to you.</text>
+    <text x="72" y="225" fill="#9299A6" font-size="18" font-weight="500">Official public data + subscriptions + AI summaries + source-first personal feed.</text>
+
+    <g font-size="13" font-weight="750" letter-spacing="0.7">
+      <rect x="70" y="267" width="128" height="36" rx="18" fill="#7C8CFF" fill-opacity="0.12" stroke="#9CA8FF" stroke-opacity="0.42"/>
+      <text x="92" y="290" fill="#CDD3FF">NEXT.JS</text>
+      <rect x="209" y="267" width="126" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.11"/>
+      <text x="231" y="290" fill="#E9ECF1">NESTJS</text>
+      <rect x="346" y="267" width="156" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.11"/>
+      <text x="368" y="290" fill="#E9ECF1">POSTGRES / VECTOR</text>
+      <rect x="513" y="267" width="112" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.11"/>
+      <text x="538" y="290" fill="#E9ECF1">BULLMQ</text>
+      <rect x="636" y="267" width="104" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.11"/>
+      <text x="662" y="290" fill="#E9ECF1">OPENAI</text>
+    </g>
+  </g>
+
+  <g transform="translate(842 46)">
+    <circle cx="144" cy="132" r="92" fill="url(#orb)" fill-opacity="0.14" stroke="#9CA8FF" stroke-opacity="0.22"/>
+    <circle cx="144" cy="132" r="64" fill="#0C1020" stroke="#9CA8FF" stroke-opacity="0.38"/>
+    <path d="M96 134C117 110 133 105 148 112C165 120 178 118 194 96" stroke="url(#orb)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="96" cy="134" r="8" fill="#2DD4BF"/>
+    <circle cx="148" cy="112" r="8" fill="#9CA8FF"/>
+    <circle cx="194" cy="96" r="8" fill="#FFFFFF"/>
+    <path d="M104 172H184" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="3" stroke-linecap="round"/>
+    <path d="M116 190H172" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="42" cy="76" r="9" fill="#9CA8FF" fill-opacity="0.8"/>
+    <circle cx="250" cy="196" r="11" fill="#2DD4BF" fill-opacity="0.8"/>
+    <circle cx="252" cy="58" r="6" fill="#FFFFFF" fill-opacity="0.55"/>
+    <path d="M50 80L82 99M236 186L203 166M246 64L212 84" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2" stroke-dasharray="5 7"/>
+    <text x="79" y="260" fill="#BFC6FF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="800" letter-spacing="2">SOURCE-FIRST BY DESIGN</text>
+  </g>
+</svg>
